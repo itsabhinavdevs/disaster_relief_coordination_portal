@@ -6,7 +6,6 @@ rules, ranks it, cuts a relief kit, picks a depot, and tracks the request to
 handover. Every ranking decision is explainable and every manual override is
 recorded against a name.
 
-
 ---
 
 ## Run it
@@ -23,10 +22,7 @@ python manage.py runserver
 
 Open http://127.0.0.1:8000/
 
-
 Citizens need no account at all. `/report/` and `/gateway/simulator/` are open.
-
-
 
 Terrain rules worth demonstrating:
 
@@ -58,7 +54,6 @@ apps/
   gateway/                  MessageGateway port, mock + Twilio adapters, parser
   portal/                   views and templates
 ```
-
 
 ## What to build next
 
